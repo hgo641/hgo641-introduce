@@ -2,25 +2,28 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+   
+    
 }
 
 a{
     text-decoration: none;
-    color: darkslategray;
+    
 }
 
 header{
+    
     width:100%;
     padding:60px;
     box-sizing: border-box;
     color: black;
     text-align: center;
     background-size: cover;
-    
+    font-family: '궁서체';
     font-size: 3em;
 }
 nav{
-    background: green;
+    
    
 }
 	
@@ -36,32 +39,61 @@ li{
 	
 article{
     width:100%;
+    display: inline;
+    
     
 }
  
 section{
     width:100%;
     padding:15px;
+   
 }
- 
-section:nth-child(1){
-    background: skyblue;
-    height:500px;
-    font-size:1.5em;
-}
- 
-section:nth-child(2){
-    background: gray;
-    height:500px;
-    font-size:1.5em;
-}
- 
 /*
+.wrapper{
+    display: inline;
+    background-color: white;
+    
+}
+
+ 
+.box1{
+    background-color: white;
+}
+ .box1,.box2{
+     display: inline;
+     margin-bottom: 500px;
+     
+ }
+ .box3,.box4{
+     display: inline;
+ }
+
+
 section input{
     display: block; 
     border:0px;
     padding:20px;
     border-radius: 3px;
     margin-top:5px;
+}
+
+section:nth-child(1){
+    background-color: #a5a0a0;
+    right: 300px;
+    background-size: 2em;
+    height:500px;
+    font-size:1.5em;
+    float: right;
+    border: violet;
+    margin-bottom: 300px;
+    margin-right: 0px;
+    margin-left: 1000px;
+}
+ 
+section:nth-child(2){
+    
+    height:500px;
+    font-size:1.5em;
 }
 */
